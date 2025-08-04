@@ -1,6 +1,6 @@
 #!/bin/bash                                                                                                            
 clear                                                                                                                   
-potentialWords=("duck" "tree" "moon" "bell" "door" "fish" "dark" "bean" "army" "baby" "ball" "bear" "bird" "bone" "book "coin" "foot" "dash" "gift" "crow" "fire" "gold" "dirt" "star" "bean" "poop" "pink" "blue" "quit" "quiz" "salt”" "jazz" "game" "gear" "lazy" "mask")
+potentialWords=("duck" "tree" "moon" "bell" "door" "fish" "dark" "bean" "army" "baby" "ball" "bear" "bird" "bone" "book" "coin" "foot" "dash" "gift" "crow" "fire" "gold" "dirt" "star" "bean" "poop" "pink" "blue" "quit" "quiz" "salt”" "jazz" "game" "gear" "lazy" "mask")
 word=${potentialWords[$((0 + $RANDOM % ${#potentialWords[@]}))]}
 guesses=4
 while [ $guesses -gt 0 ]; do
